@@ -44,7 +44,5 @@ window.onload = function () {
     }
 
     if (seconds > 9) appendSeconds.innerHTML = seconds;
-
-    console.log(`${seconds}:${tens}`);
   }
 };
